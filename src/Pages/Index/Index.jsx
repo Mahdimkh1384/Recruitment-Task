@@ -1,9 +1,18 @@
 import React, { useEffect, useState } from 'react'
+import RouteBox from '../../Components/RouteBox/RouteBox';
+import { TiWeatherCloudy } from "react-icons/ti";
+import { FaListCheck } from "react-icons/fa6";
+
 
 export default function Index() {
 
     const [time, setTime] = useState('');
     const [period, setPeriod] = useState("")
+
+    const routeData = [
+        { id: 1, title: "لیست وظایف", icon: <FaListCheck /> , href : "/todos"},
+        { id: 2, title: "آب و هوا", icon: <TiWeatherCloudy /> , href : "/weather"}
+    ]
 
     // check time
     useEffect(() => {
@@ -33,11 +42,18 @@ export default function Index() {
     }, [])
 
     return (
-        <div className='flex flex-col justify-evenly items-center gap-y-15'>
-            <h1 className='text-9xl text-black dark:text-white'>
-                {time}
-            </h1>
-            <h2 className='text-6xl  text-black dark:text-white'>{period}</h2>
+        <div className='flex flex-col gap-7'>
+            <div className='flex flex-col justify-evenly items-center gap-y-15'>
+                <h1 className='lg:text-9xl sm:text-7xl text-black font-bold dark:text-white'>
+                    {time}
+                </h1>
+                <h2 className='lg:text-6xl sm:text-5xl  text-black dark:text-white'>{period}</h2>
+            </div>
+            <div className='flex lg:flex-row flex-col justify-center items-center gap-5 mt-10'>
+                {routeData.map(data => (
+                    <RouteBox key={data.id} {...data}/>
+                ))}
+            </div>
         </div>
     )
 }

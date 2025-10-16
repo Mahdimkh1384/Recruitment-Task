@@ -38,7 +38,7 @@ export default function NavBar() {
     }, [location])
     return (
         <div className='fixed top-0 w-full h-[20vh] flex justify-around items-center bg-neutral-200 dark:bg-neutral-500 rounded-b-[50%] px-4'>
-            <Link to="/" className='text-3xl font-bold text-purple-600 dark:text-purple-800'>Recruitment Task</Link>
+            <Link to="/" className='lg:text-3xl sm:text-2xl font-bold text-purple-600 dark:text-purple-800'>Recruitment Task</Link>
             <div className='flex gap-4'>
                 {isUserLogin && <Link className='btn' to="/my-account"> <FaRegUser className='text-black dark:text-white' /> </Link>}
                 <button className='btn' onClick={() => {
