@@ -86,12 +86,12 @@ export default function Todos() {
     }
     return (
         <div className='flex flex-col items-center gap-y-10'>
-            <div className='flex w-[55%] justify-between'>
-                <input type="text" value={todo} className='border border-neutral-500 dark:border-white w-[50%] rounded-[8px] px-2 focus:border-purple-600 outline-0 placeholder:text-neutral-500 dark:placeholder:text-white text-black dark:text-white bg-white dark:bg-neutral-600' onChange={e => setTodo(e.target.value)} placeholder='عنوان تسک جدید...' />
-                <button onClick={addTodo} className='w-[150px] h-[40px] bg-purple-600 text-white rounded-[8px] cursor-pointer hover:bg-purple-700 transition-colors'>ثبت</button>
+            <div className='flex lg:w-[55%] justify-between'>
+                <input type="text" value={todo} className='border border-neutral-500 dark:border-white lg:w-[50%] sm:w-[60%] rounded-[8px] px-2 focus:border-purple-600 outline-0 placeholder:text-neutral-500 dark:placeholder:text-white text-black dark:text-white bg-white dark:bg-neutral-600' onChange={e => setTodo(e.target.value)} placeholder='عنوان تسک جدید...' />
+                <button onClick={addTodo} className='lg:w-[150px] sm:w-[100px] h-[40px] bg-purple-600 text-white rounded-[8px] cursor-pointer hover:bg-purple-700 transition-colors'>ثبت</button>
             </div>
-            <div className='w-[55%] flex flex-col gap-y-6'>
-                <h1 className='text-3xl text-purple-600 dark:text-purple-500'>لیست تسک ها</h1>
+            <div className='lg:w-[55%] sm:w-full flex flex-col gap-y-6 px-10 '>
+                <h1 className='lg:text-3xl sm:text-2xl text-purple-600 dark:text-purple-500'>لیست تسک ها</h1>
                 <div className='flex flex-wrap gap-1.5'>
                     {!allTodos.length && <h2 className='text-center text-xl text-red-500 mt-3 w-full font-bold'>هیچ تسکی وجود ندارد</h2>}
                     {allTodos.map(todo => (

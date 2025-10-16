@@ -1,13 +1,18 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { FaRegUser } from "react-icons/fa";
 import Swal from 'sweetalert2';
-import { useNavigate } from "react-router-dom";
 
 
 export default function Login() {
 
     const [userName, setUserName] = useState('')
-    const navigate = useNavigate();
+
+    useEffect(() => {
+        const user = localStorage.getItem('user')
+        if (user) {
+            window.location.href = "/"
+        }
+    }, [])
 
     const loginHandler = () => {
         if (userName.length <= 3) {
@@ -24,8 +29,9 @@ export default function Login() {
                 text: "شما با موفقیت وارد شدید",
                 icon: "success",
                 confirmButtonText: "باشه",
+            }).then(() => {
+                window.location.href = "/"
             })
-            navigate("/")
         }
     }
     return (
