@@ -16,3 +16,9 @@
 @theme {
     --breakpoint-sm: 320px
 }
+
+@layer components{
+    .btn{
+        @apply size-[45px] border rounded-[8px] border-purple-600 flex justify-center items-center cursor-pointer text-xl bg-white dark:bg-neutral-700 dark:hover:bg-neutral-600 hover:bg-purple-100 transition-colors
+    }
+}

@@ -1,6 +1,7 @@
 import { useRoutes } from 'react-router-dom'
 import './App.css'
 import routes from './Routes.jsx'
+import NavBar from './Components/NavBar/NavBar.jsx'
 
 function App() {
 
@@ -8,7 +9,10 @@ function App() {
 
   return (
     <>
-      {router}
+      <NavBar />
+      <div dir='rtl' className='mt-[230px]'>
+        {router}
+      </div>
     </>
   )
 }
