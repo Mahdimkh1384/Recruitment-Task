@@ -65,7 +65,7 @@ export default function Weather() {
 
     return (
         <div className='flex justify-center'>
-            <div className='w-[40%] flex flex-col gap-y-7'>
+            <div className='lg:w-[40%] flex flex-col gap-y-7'>
                 <h1 className='text-3xl text-purple-600 dark:text-purple-500'>جستجوی شهر</h1>
                 <div className='flex gap-3 justify-between'>
                     <div className='flex flex-col w-[80%] gap-y-1.5'>
