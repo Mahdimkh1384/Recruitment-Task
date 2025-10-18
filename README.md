@@ -14,7 +14,7 @@
 - ❌No language changes throughout the project
 
 # Preview👁️‍🗨️
-<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000344.png?raw=true"/><img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000422.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000344.png?raw=true"/> <img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000422.png?raw=true"/>
 <img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000402.png?raw=true"/>
 <img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000447.png?raw=true"/>
 <img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000440.png?raw=true"/>
