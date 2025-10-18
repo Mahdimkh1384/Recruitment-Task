@@ -1,16 +1,29 @@
-# React + Vite
+# Description✔️
+> This is a task for hiring in a company.
+> 
+# Capabilities✅❌
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- ✅Login form to access project features
+- ✅Ability to change the screen theme to dark and light
+- ✅Ability to change the language to English on the user panel page
+- ✅Ability to add and delete todos
+- ✅Ability to search for weather in different cities
+- ✅Has suggestions feature for city search
+- ✅The entire project is responsive on the phone.
+- ✅Display appropriate messages to the user in case of errors
+- ❌No language changes throughout the project
 
-Currently, two official plugins are available:
+# Preview👁️‍🗨️
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000344.png?raw=true"/><img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000422.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000402.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000447.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000440.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000455.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000507.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000515.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000523.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000540.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000548.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000556.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000608.png?raw=true"/>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
