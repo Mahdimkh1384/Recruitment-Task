@@ -15,7 +15,7 @@ export default function Login() {
     }, [])
 
     const loginHandler = () => {
-        if (userName.length <= 3) {
+        if (userName.length < 3) {
             Swal.fire({
                 title: "ورود",
                 text: "نام شما باید حداقل 3 کاراکتر داشته باشد",
