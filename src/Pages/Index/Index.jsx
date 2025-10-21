@@ -20,7 +20,7 @@ export default function Index() {
     }, [location])
 
     return (
-        <div className='flex flex-col gap-7'>
+        <div className='flex flex-col justify-center gap-7 h-[70vh]'>
             <div className='flex flex-col justify-evenly items-center gap-y-15'>
                 <Clock user = {user}/>
             </div>

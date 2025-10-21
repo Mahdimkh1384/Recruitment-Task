@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <div dir='rtl' className='mt-[230px]'>
+      <div dir='rtl' className='mt-[200px]'>
         {router}
       </div>
     </>
