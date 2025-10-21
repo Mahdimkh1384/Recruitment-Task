@@ -27,7 +27,8 @@ export default function UserPanel() {
             });
         } else {
             localStorage.setItem("user", newName);
-            setName(localStorage.getItem("user"));
+            setName(localStorage.getItem("user"))
+            window.dispatchEvent(new Event("userChanged"))
             Swal.fire({
                 title: t("changeNameTitle"),
                 text: t("nameChangedSuccess"),
@@ -47,7 +48,7 @@ export default function UserPanel() {
 
     return (
         <div className='flex justify-center' dir={mainLanguage === "fa" ? "rtl" : "ltr"}>
-            <div className='lg:w-[50%] sm:w-[90%] h-[50vh] border border-neutral-400 rounded-[10px] shadow shadow-neutral-500 p-4 bg-white dark:bg-neutral-600'>
+            <div className='lg:w-[50%] sm:w-[90%] h-[50vh] border border-neutral-400 rounded-[10px] shadow shadow-neutral-500 p-4 bg-[#f4f6f7] dark:bg-[#2D3748]'>
                 {/* ================================= profile section ==================================== */}
                 <div className='flex justify-between items-start border-b border-black dark:border-white lg:pb-5 sm:pb-7'>
                     <div className='flex gap-5 items-center'>
@@ -58,10 +59,10 @@ export default function UserPanel() {
                 </div>
                 {/* ===================================== change name section ============================ */}
                 <div className='p-4 flex flex-col gap-7 justify-between h-[40%]'>
-                    <h4 className='text-purple-600 text-2xl dark:text-purple-400'>{t('changeName')}</h4>
+                    <h4 className='text-[#357ABD] text-2xl dark:text-[#5DADEC]'>{t('changeName')}</h4>
                     <div className='flex lg:flex-row sm:flex-col justify-between items-center gap-y-8'>
-                        <input type="text" value={newName} onChange={e => setNewName(e.target.value)} placeholder={t('newNamePlaceholder')} className='lg:w-[50%] sm:w-full h-[40px] border border-neutral-400 px-2 rounded-[8px] outline-0 focus:border-purple-600 focus:placeholder:text-purple-600 bg-white dark:bg-neutral-400 placeholder:text-neutral-500 dark:placeholder:text-white dark:focus:border-white dark:focus:placeholder:text-white text-black dark:text-white' />
-                        <button onClick={changeName} className='lg:w-[100px] sm:w-full h-[40px] bg-purple-600 dark:bg-purple-500 text-white rounded-[8px] cursor-pointer hover:bg-purple-700 dark:hover:bg-purple-600 transition-colors'>{t('submit')}</button>
+                        <input type="text" value={newName} onChange={e => setNewName(e.target.value)} placeholder={t('newNamePlaceholder')} className='lg:w-[50%] sm:w-full h-[40px] border border-neutral-400 px-2 rounded-[8px] outline-0 focus:border-[#357ABD] focus:placeholder:text-[#357ABD] bg-white' />
+                        <button onClick={changeName} className='lg:w-[100px] sm:w-full h-[40px] bg-[#357ABD] dark:bg-[#5DADEC] text-white dark:text-[#1F2A44] rounded-[8px] cursor-pointer hover:bg-[#1f65ab] dark:hover:bg-[#82C1F0] transition-colors'>{t('submit')}</button>
                     </div>
                 </div>
             </div>

@@ -61,6 +61,15 @@ export default function NavBar() {
         }
     }, [location.pathname, navigate]);
 
+    useEffect(() => {
+        const updateUser = () => {
+            const updatedUser = localStorage.getItem('user');
+            setUser(updatedUser);
+        };
+        window.addEventListener('userChanged', updateUser);
+        return () => window.removeEventListener('userChanged', updateUser);
+    }, []);
+
     // close mobile menu to click outside
     useEffect(() => {
         const handleClickOutside = (event) => {
