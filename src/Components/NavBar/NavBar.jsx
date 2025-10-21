@@ -88,7 +88,7 @@ export default function NavBar() {
 
         <>
             {isShowMobileMenu && <div ref={menuRef}><MobileSideBar user={user} /></div>}
-            <div className='fixed top-0 w-full h-[20vh] flex justify-between items-center bg-[#E8ECEF] dark:bg-[#2D3748] border-b-2 border-[#E0E6ED] dark:border-[#3A4A6B] px-4'>
+            <div dir='rtl' className='fixed top-0 w-full h-[20vh] flex justify-between items-center bg-[#E8ECEF] dark:bg-[#2D3748] border-b-2 border-[#E0E6ED] dark:border-[#3A4A6B] px-4'>
                 <div className='flex gap-10 items-center'>
                     {isUserLogin && <button className='btn lg:hidden' onClick={() => setIsShowMobileMenu(true)}> <IoMenu /> </button>}
                     <Link to="/" className='lg:text-3xl sm:text-2xl font-bold text-[#2E2E2E] dark:text-[#D3D8DE]'>Recruitment Task</Link>
