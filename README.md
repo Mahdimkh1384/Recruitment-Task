@@ -11,6 +11,7 @@
 - ✅Has suggestions feature for city search
 - ✅The entire project is responsive on the phone.
 - ✅Display appropriate messages to the user in case of errors
+- ✅Existence of a loader to get data
 - ❌No language changes throughout the project
 
 # Preview👁️‍🗨️
