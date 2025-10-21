@@ -14,16 +14,19 @@
 - ❌No language changes throughout the project
 
 # Preview👁️‍🗨️
-<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000344.png?raw=true"/> <img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000422.png?raw=true"/>
-<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000402.png?raw=true"/>
-<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000447.png?raw=true"/>
-<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000440.png?raw=true"/>
-<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000455.png?raw=true"/>
-<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000507.png?raw=true"/>
-<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000515.png?raw=true"/>
-<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000523.png?raw=true"/>
-<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000540.png?raw=true"/>
-<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000548.png?raw=true"/>
-<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000556.png?raw=true"/>
-<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-19%20000608.png?raw=true"/>
-
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-21%20202422.png?raw=true"/> <img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-21%20202430.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-21%20202033.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-21%20202053.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-21%20202106.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-21%20202116.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-21%20202129.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-21%20202215.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-21%20202152.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-21%20202225.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-21%20202236.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-21%20202256.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-21%20202304.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-21%20202324.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-21%20202315.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-21%20202346.png?raw=true"/>
+<img width="400px" src="https://github.com/Mahdimkh1384/Recruitment-Task/blob/main/Screenshots/Screenshot%202025-10-21%20202357.png?raw=true"/>
