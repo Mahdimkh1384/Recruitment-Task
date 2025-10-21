@@ -19,6 +19,6 @@
 
 @layer components{
     .btn{
-        @apply size-[45px] border rounded-[8px] border-purple-600 flex justify-center items-center cursor-pointer text-xl bg-white dark:bg-neutral-700 dark:hover:bg-neutral-600 hover:bg-purple-100 transition-colors
+        @apply size-[45px] border rounded-[8px] border-[#D3E0F0] dark:border-[#3A4A6B] flex justify-center items-center cursor-pointer text-xl bg-[#4A90E2] dark:bg-[#5DADEC] dark:hover:bg-[#82C1F0] hover:bg-[#357ABD] transition-colors duration-200 text-[#FFFFFF] dark:text-[#1F2A44]
     }
 }
