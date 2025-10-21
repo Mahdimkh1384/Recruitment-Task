@@ -58,10 +58,10 @@ export default function UserPanel() {
                 </div>
                 {/* ===================================== change name section ============================ */}
                 <div className='p-4 flex flex-col gap-7 justify-between h-[40%]'>
-                    <h4 className='text-purple-600 text-2xl dark:text-purple-400'>{t('changeName')}</h4>
+                    <h4 className='text-[#357ABD] text-2xl dark:text-[#5DADEC]'>{t('changeName')}</h4>
                     <div className='flex lg:flex-row sm:flex-col justify-between items-center gap-y-8'>
                         <input type="text" value={newName} onChange={e => setNewName(e.target.value)} placeholder={t('newNamePlaceholder')} className='lg:w-[50%] sm:w-full h-[40px] border border-neutral-400 px-2 rounded-[8px] outline-0 focus:border-purple-600 focus:placeholder:text-purple-600 bg-white dark:bg-neutral-400 placeholder:text-neutral-500 dark:placeholder:text-white dark:focus:border-white dark:focus:placeholder:text-white text-black dark:text-white' />
-                        <button onClick={changeName} className='lg:w-[100px] sm:w-full h-[40px] bg-purple-600 dark:bg-purple-500 text-white rounded-[8px] cursor-pointer hover:bg-purple-700 dark:hover:bg-purple-600 transition-colors'>{t('submit')}</button>
+                        <button onClick={changeName} className='lg:w-[100px] sm:w-full h-[40px] bg-[#357ABD] dark:bg-[#5DADEC] text-white dark:text-[#1F2A44] rounded-[8px] cursor-pointer hover:bg-[#1f65ab] dark:hover:bg-[#82C1F0] transition-colors'>{t('submit')}</button>
                     </div>
                 </div>
             </div>
